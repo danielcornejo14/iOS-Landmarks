@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LandmarkDetail.swift
 //  Landmarks
 //
 //  Created by Daniel Cornejo on 19/2/25.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LandmarkDetail: View {
     var body: some View {
         VStack {
             MapView()
@@ -37,10 +37,9 @@ struct ContentView: View {
             .padding()
             Spacer()
         }
-            
     }
 }
 
 #Preview {
-    ContentView()
+    LandmarkDetail()
 }
